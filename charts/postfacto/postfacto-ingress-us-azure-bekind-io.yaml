@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: postfacto-ingress
+  namespace: postfacto
+spec:
+  rules:
+  - host: postfacto.us.azure.bekind.io
+    http:
+      paths:
+      - backend:
+          serviceName: postfacto
+          servicePort: 80
+  tls:
+  - hosts:
+    - postfacto.us.azure.bekind.io
+    secretName: ingress-tls-us-azure-bekind-io

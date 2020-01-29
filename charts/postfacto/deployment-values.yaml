@@ -1,0 +1,6 @@
+postgresql:
+  postgresqlPassword: keepitsimplepostgres
+redis:
+  password: keepitsimpleredis
+secretKeyBase: ajsdklfjdoisfjadoisfjdlsfjladskjfladkjfasdjklf
+googleOAuthClientID: 365988574884-mk7o0otifuuf98jveg25esuhorjkuvko.apps.googleusercontent.com

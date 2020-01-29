@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  tls.crt: <secret deleted>
+  tls.key: <secret deleted>
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: ingress-tls-us-azure-bekind-io
+  selfLink: /api/v1/namespaces/default/secrets/ingress-tls-us-azure-bekind-io
+type: kubernetes.io/tls
