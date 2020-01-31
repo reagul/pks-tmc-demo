@@ -1,4 +1,6 @@
-# pks-tmc-demo
+# TMC Cli Demo 
+
+Demonstrates the ./tmc cli commdand and base operations 
 
 ##Requirements
 * PKS installation or access to K8s cluster
